@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
 	s.name        = "mxfinfo"
 	s.version     = "0.0.4"
 	s.summary     = "Ruby bindings for avidmxfinfo."
-	s.description = "Ruby bindings for avidmxfinfo, designed to be a drop-in replacement for bigzed's mxfinfo."
+	s.description = "Ruby bindings for avidmxfinfo, designed to be used as a drop-in replacement for bigzed's mxfinfo."
 	s.homepage    = "https://github.com/maltoe/mxfinfo"
 	s.author      = "Malte Rohde"
 	s.email	      = "malte.rohde@flavoursys.com"
