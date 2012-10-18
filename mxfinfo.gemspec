@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 	s.name    = "avidmxfinfo"
 	s.version = "0.0.1"
-	s.summary = "Ruby bindings for avidmxfinfo"
+	s.summary = "Ruby bindings for avidmxfinfo, designed to be a drop-in replacement for bigzed's mxfinfo."
 	s.author  = "Malte Rohde"
 
 	s.files = Dir.glob("ext/**/*.{c,rb}") 
