@@ -1,11 +1,16 @@
 Gem::Specification.new do |s|
-	s.name    = "avidmxfinfo"
-	s.version = "0.0.1"
-	s.summary = "Ruby bindings for avidmxfinfo, designed to be a drop-in replacement for bigzed's mxfinfo."
-	s.author  = "Malte Rohde"
+	s.name        = "mxfinfo"
+	s.version     = "0.0.4"
+	s.summary     = "Ruby bindings for avidmxfinfo."
+	s.description = "Ruby bindings for avidmxfinfo, designed to be a drop-in replacement for bigzed's mxfinfo."
+	s.homepage    = "https://github.com/maltoe/mxfinfo"
+	s.author      = "Malte Rohde"
+	s.email	      = "malte.rohde@flavoursys.com"
 
-	s.files = Dir.glob("ext/**/*.{c,rb}") 
-	s.extensions << "ext/avidmxfinfo/extconf.rb"
+	s.files = Dir.glob("ext/**/*.{c,h,rb}") +
+			  Dir.glob("lib/**/*.rb")
+			  
+	s.extensions << "ext/mxfinfo/extconf.rb"
 
 	s.add_development_dependency "rake-compiler"
 end
